@@ -1,7 +1,39 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    background-image:
 }
-h1{font-size: 50px;}
-#name{
+
+h1 {
+    font-size: 50px;
+}
+
+#name {
     color: aquamarine;
+}
+
+section {
+    display: flex;
+    width: 80%;
+}
+
+.resize {
+    width: 50%;
+    padding: left 10%;
+
+
+}
+
+.resize img {
+    width: 80%;
+
+
+}
+
+.button {
+
+    background-image: linear-gradient(green, orange);
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 7px;
+    font-weight: 800;
 }
