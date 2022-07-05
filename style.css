@@ -1,10 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-image:
+
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 #name {
@@ -13,6 +13,8 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 200px;
+    padding: auto;
 
 }
 
@@ -21,6 +23,11 @@ section {
     padding: left 10%;
 
 
+
+}
+
+h1 {
+    color: rgb(228, 228, 20);
 }
 
 .resize img {
@@ -45,3 +52,22 @@ section {
     margin: 0%;
     display: flex;
 }
+
+.mj {
+    background-image: url(back.jpg);
+    display: flex;
+}
+
+p {
+    color: coral;
+}
+
+.orange {
+    color: olivedrab;
+}
+
+.exp-itm {
+    box-shadow: 10px 20px greenyellow;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10%;
