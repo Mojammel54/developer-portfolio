@@ -13,8 +13,9 @@ h1 {
 
 section {
     display: flex;
-    margin-bottom: 200px;
+    margin-top: 2%;
     padding: auto;
+
 
 }
 
@@ -32,6 +33,7 @@ h1 {
 
 .resize img {
     width: 100%;
+
 
 
 
@@ -60,14 +62,26 @@ h1 {
 
 p {
     color: coral;
+    font-size: x-large
 }
 
 .orange {
     color: olivedrab;
 }
 
-.exp-itm {
-    box-shadow: 10px 20px greenyellow;
+.box {
+    box-shadow: 7px 7px 10px green;
+    display: block;
+    padding-left: 10%;
+    width: 50%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 10%;
+    text-align: left;
+    background-image: url(white.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: medium;
+}
